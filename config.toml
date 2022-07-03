@@ -1,4 +1,0 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Open Privacy Tech'
-theme = 'showcase-hugo-theme'

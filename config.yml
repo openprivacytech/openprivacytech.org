@@ -1,0 +1,42 @@
+baseURL: "https://naughty-wiles-fd4c60.netlify.app"
+languageCode: en-us
+title: Demo for Hugo
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff.
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com/"
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: github
+      url: "https://github.com/"
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
