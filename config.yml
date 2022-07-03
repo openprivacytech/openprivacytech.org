@@ -8,12 +8,10 @@ params:
     Title: "Hello Stranger"
     Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff.
   socialIcons:
-    - name: facebook
-      url: "https://facebook.com/"
     - name: twitter
-      url: "https://twitter.com/"
+      url: "https://twitter.com/openprivacytech"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/openprivacytech"
 
   cover:
     linkFullImages: true
