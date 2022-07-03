@@ -1,6 +1,6 @@
-baseURL: "https://naughty-wiles-fd4c60.netlify.app"
+baseURL: "https:/openprivacytech.org"
 languageCode: en-us
-title: Demo for Hugo
+title: Open Privacy Tech
 theme: PaperMod
 
 params:
@@ -40,3 +40,7 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+    - identifier: resources
+      name: Resources
+      url: /resources/
+      weight: 40
