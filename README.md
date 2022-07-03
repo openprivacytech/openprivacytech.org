@@ -1,1 +1,1 @@
-# Open Privay Tech website
+# Open Privacy Tech website

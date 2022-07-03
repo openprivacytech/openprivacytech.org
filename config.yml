@@ -18,14 +18,14 @@ menu:
     - identifier: resources
       name: Resources
       url: /resources/
-      weight: 20
+      weight: 10
     - identifier: blog
       name: Blog
       url: /posts
-      weight: 30
+      weight: 20
     - identifier: projects
       name: Projects
       url: /projects
-      weight: 40
+      weight: 30
 
       
