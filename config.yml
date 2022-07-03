@@ -3,42 +3,29 @@ languageCode: en-us
 title: Open Privacy Tech
 theme: PaperMod
 
+
 params:
-  homeInfoParams:
-    Title: "Hello Stranger"
-    Content: Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff.
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/openprivacytech"
-    - name: github
-      url: "https://github.com/openprivacytech"
-
-  cover:
-    linkFullImages: true
-
-  ShowBreadCrumbs: true
-
   ShowReadingTime: true
-
-  ShowShareButtons: true
-
+  ShowFullTextinRSS: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  disableSpecial1stPost: true
   ShowPostNavLinks: true
+  ShowShareButtons: false
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 30
     - identifier: resources
       name: Resources
       url: /resources/
+      weight: 20
+    - identifier: blog
+      name: Blog
+      url: /posts
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects
       weight: 40
+
+      

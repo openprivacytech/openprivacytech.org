@@ -1,8 +1,6 @@
 ---
-title: "Resources"
-layout: "resources"
-url: "/resources/"
-summary: resources
----
+title: Resources
 
-# Resources
+ShowReadingTime: false
+ShowBreadCrumbs: false
+---
