@@ -49,8 +49,6 @@ params:
       url: "https://www.linkedin.com/company/openprivacytech"
     - name: slack
       url: "https://communityinviter.com/apps/openprivacytech/openprivacytech"  
-    - name: opencollective
-      url: "https://opencollective.com/openprivacytech"
 
 
 
