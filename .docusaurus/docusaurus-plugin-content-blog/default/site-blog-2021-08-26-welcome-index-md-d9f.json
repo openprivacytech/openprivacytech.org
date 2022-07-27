@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blog/2021-08-26-welcome/index.md",
+  "source": "@site/blog/2021-08-26-welcome/index.md",
+  "title": "Welcome",
+  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "date": "2021-08-26T00:00:00.000Z",
+  "formattedDate": "August 26, 2021",
+  "tags": [
+    {
+      "label": "announcements",
+      "permalink": "/blog/tags/announcements"
+    },
+    {
+      "label": "federated learning",
+      "permalink": "/blog/tags/federated-learning"
+    },
+    {
+      "label": "differential privacy",
+      "permalink": "/blog/tags/differential-privacy"
+    }
+  ],
+  "readingTime": 0.405,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sourav Das",
+      "title": "Founder, Open Privacy Tech",
+      "url": "https://github.com/souravcipher",
+      "imageURL": "https://github.com/souravcipher.png",
+      "key": "sourav"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      "sourav"
+    ],
+    "tags": [
+      "announcements",
+      "federated learning",
+      "differential privacy"
+    ]
+  },
+  "nextItem": {
+    "title": "First Blog Post",
+    "permalink": "/blog/first-blog-post"
+  }
+}

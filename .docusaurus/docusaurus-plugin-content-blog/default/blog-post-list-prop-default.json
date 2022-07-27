@@ -1,0 +1,13 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/blog/welcome"
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/blog/first-blog-post"
+    }
+  ]
+}
