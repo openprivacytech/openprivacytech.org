@@ -4,8 +4,8 @@ title: First Blog Post
 authors:
   name: Sourav Das
   title: Founder, Open Privacy Tech.
-  url: https://github.com/souravrhythm
-  image_url: https://github.com/souravrhythm.png
+  url: https://github.com/souravcipher
+  image_url: https://github.com/souravcipher.png
 tags: [announcement]
 ---
 
