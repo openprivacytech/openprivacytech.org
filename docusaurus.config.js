@@ -70,10 +70,12 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/resources', label: 'Resources', position: 'left'},
           {
-            href: 'https://github.com/openprivacytech',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/openprivacytech",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
@@ -86,6 +88,10 @@ const config = {
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Resources',
+                to: 'resources',
               },
             ],
           },

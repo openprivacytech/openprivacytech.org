@@ -88,6 +88,11 @@ export default [
     exact: true
   },
   {
+    path: '/resources',
+    component: ComponentCreator('/resources', '4ba'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', 'f4c'),
     routes: [

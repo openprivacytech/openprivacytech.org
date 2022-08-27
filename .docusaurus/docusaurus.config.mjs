@@ -55,9 +55,15 @@ export default {
           "position": "left"
         },
         {
+          "to": "/resources",
+          "label": "Resources",
+          "position": "left"
+        },
+        {
           "href": "https://github.com/openprivacytech",
-          "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link",
+          "aria-label": "GitHub repository"
         }
       ],
       "hideOnScroll": false
@@ -71,6 +77,10 @@ export default {
             {
               "label": "Tutorial",
               "to": "/docs/intro"
+            },
+            {
+              "label": "Resources",
+              "to": "resources"
             }
           ]
         },
