@@ -1,0 +1,23 @@
+{
+  "unversionedId": "resources/intro copy",
+  "id": "resources/intro copy",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/resources/intro copy.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/intro copy",
+  "permalink": "/docs/resources/intro copy",
+  "draft": false,
+  "editUrl": "https://github.com/openprivacytech/openprivacytech.org/docs/resources/intro copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}
