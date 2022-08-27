@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Our Community',
+    Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Open Privacy Tech is a growing community of Privacy Reseachers, Developers, Engineers, Data Scientists and Evangelists, 
+        Join the thriving community to get invlove in our larger Privacy Tech mission.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Join a Working Group',
+    Svg: require('@site/static/img/working_group.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        As a member of a working group you will get the access to work with Privacy Engineers, Reseachers, Developers and Industry Leaders.
+        Joining a working group will give you the opportunity to collaborate and working directly on Open Privacy Tech projects.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Privacy Tech',
+    Svg: require('@site/static/img/advocate.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We are on a mission to make the world a better and safer place for humanity, we beleive that by doing Research, Development and Adovocacy in Privacy Tech we can
+        solve the larger Data Privacy problems in the world to make the world more privacy-preserving.
       </>
     ),
   },

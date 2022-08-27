@@ -79,6 +79,12 @@
           }
         ],
         "href": "/docs/category/tutorial---extras"
+      },
+      {
+        "type": "link",
+        "label": "resources",
+        "href": "/docs/resources",
+        "docId": "resources"
       }
     ]
   },
@@ -87,6 +93,12 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "resources": {
+      "id": "resources",
+      "title": "resources",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

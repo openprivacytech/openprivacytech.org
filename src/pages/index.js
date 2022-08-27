@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://communityinviter.com/apps/openprivacytech/openprivacytech">
-            Join the community
+            Join the thriving community
           </Link>
         </div>
       </div>

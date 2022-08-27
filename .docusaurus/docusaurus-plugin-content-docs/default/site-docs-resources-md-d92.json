@@ -1,0 +1,20 @@
+{
+  "unversionedId": "resources",
+  "id": "resources",
+  "title": "resources",
+  "description": "",
+  "source": "@site/docs/resources.md",
+  "sourceDirName": ".",
+  "slug": "/resources",
+  "permalink": "/docs/resources",
+  "draft": false,
+  "editUrl": "https://github.com/openprivacytech/openprivacytech.org/docs/resources.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

@@ -42,6 +42,26 @@
               }
             },
             {
+              "unversionedId": "resources",
+              "id": "resources",
+              "title": "resources",
+              "description": "",
+              "source": "@site/docs/resources.md",
+              "sourceDirName": ".",
+              "slug": "/resources",
+              "permalink": "/docs/resources",
+              "draft": false,
+              "editUrl": "https://github.com/openprivacytech/openprivacytech.org/docs/resources.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
+              }
+            },
+            {
               "unversionedId": "tutorial-basics/congratulations",
               "id": "tutorial-basics/congratulations",
               "title": "Congratulations!",
@@ -251,6 +271,10 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "resources",
+                "permalink": "/docs/resources"
               }
             }
           ],
@@ -319,6 +343,10 @@
                   "slug": "/category/tutorial---extras",
                   "permalink": "/docs/category/tutorial---extras"
                 }
+              },
+              {
+                "type": "doc",
+                "id": "resources"
               }
             ]
           }
