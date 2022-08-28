@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Open Privacy Tech',
-  tagline: 'Website is under development!!',
+//  tagline: 'Website is under development!!',
   url: 'https://openprivacytech.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+//  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -130,7 +130,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Open Privacy Tech. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Open Privacy Tech.`,
       },
       prism: {
         theme: lightCodeTheme,

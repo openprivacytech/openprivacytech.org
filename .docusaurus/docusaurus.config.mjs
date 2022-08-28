@@ -5,12 +5,10 @@
  */
 export default {
   "title": "Open Privacy Tech",
-  "tagline": "Website is under development!!",
   "url": "https://openprivacytech.org",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "favicon": "img/favicon.ico",
   "organizationName": "Open Privacy Tech",
   "projectName": "openprivacytech",
   "i18n": {
@@ -119,7 +117,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Open Privacy Tech. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Open Privacy Tech."
     },
     "prism": {
       "theme": {
@@ -354,6 +352,7 @@ export default {
   "scripts": [],
   "stylesheets": [],
   "clientModules": [],
+  "tagline": "",
   "titleDelimiter": "|",
   "noIndex": false
 };
