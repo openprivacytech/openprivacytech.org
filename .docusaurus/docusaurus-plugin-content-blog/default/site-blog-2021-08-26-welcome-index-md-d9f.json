@@ -3,7 +3,7 @@
   "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
-  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "description": "We are working on the blog page, stay tuned for the upcoming blogs.",
   "date": "2021-08-26T00:00:00.000Z",
   "formattedDate": "August 26, 2021",
   "tags": [
@@ -20,7 +20,7 @@
       "permalink": "/blog/tags/differential-privacy"
     }
   ],
-  "readingTime": 0.405,
+  "readingTime": 0.155,
   "hasTruncateMarker": false,
   "authors": [
     {

@@ -9,6 +9,7 @@ export default {
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
+  "favicon": "img/favicon.ico",
   "organizationName": "Open Privacy Tech",
   "projectName": "openprivacytech",
   "i18n": {
