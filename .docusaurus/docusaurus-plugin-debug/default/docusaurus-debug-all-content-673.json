@@ -596,8 +596,7 @@
         "type": "mdx",
         "permalink": "/resources",
         "source": "@site/src/pages/resources.md",
-        "title": "Tutorial Intro",
-        "description": "Let's discover Docusaurus in less than 5 minutes.",
+        "title": "Resources",
         "frontMatter": {
           "sidebar_position": 1
         }

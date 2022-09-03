@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-extras/translate-your-site",
+  "id": "tutorial-extras/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/what/tutorial-extras/translate-your-site.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/translate-your-site",
+  "permalink": "/what/tutorial-extras/translate-your-site",
+  "draft": false,
+  "editUrl": "https://github.com/openprivacytech/openprivacytech.org/what/tutorial-extras/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/what/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "resources",
+    "permalink": "/what/resources"
+  }
+}

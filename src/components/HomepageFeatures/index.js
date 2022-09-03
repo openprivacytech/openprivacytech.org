@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Our Community',
+    title: 'Community',
     Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
