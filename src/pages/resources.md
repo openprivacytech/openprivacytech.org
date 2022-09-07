@@ -8,10 +8,10 @@ sidebar_position: 1
 [TensorFlow Federated: Machine Learning on Decentralized Data](https://www.tensorflow.org/federated)
 
 ### Federated Learning Frameworks
-- TensorFlow Federated (TFF)
-- PySyft
+- [TensorFlow Federated (TFF)](https://www.tensorflow.org/federated)
+- [PySyft](https://github.com/OpenMined/PySyft)
 - FATE
-- 
+- OpenFL
 
 ## Differential Privacy
 
