@@ -10,8 +10,8 @@ sidebar_position: 1
 ### Federated Learning Frameworks
 - [TensorFlow Federated (TFF)](https://github.com/tensorflow/federated)
 - [PySyft](https://github.com/OpenMined/PySyft)
-- FATE
 - [OpenFL](https://github.com/intel/openfl)
+- [FATE](https://github.com/FederatedAI/FATE)
 
 ## Differential Privacy
 
