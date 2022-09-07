@@ -9,7 +9,9 @@ sidebar_position: 1
 
 ### Federated Learning Frameworks
 - TensorFlow Federated (TFF)
-
+- PySyft
+- FATE
+- 
 
 ## Differential Privacy
 
