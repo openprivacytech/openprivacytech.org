@@ -5,6 +5,7 @@ sidebar_position: 1
 # Resources
 
 ## Federated Learning
+[TensorFlow Federated: Machine Learning on Decentralized Data](https://www.tensorflow.org/federated)
 
 ## Differential Privacy
 
