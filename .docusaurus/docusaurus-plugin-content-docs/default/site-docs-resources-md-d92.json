@@ -2,7 +2,7 @@
   "unversionedId": "resources",
   "id": "resources",
   "title": "resources",
-  "description": "",
+  "description": "Differential Privacy",
   "source": "@site/docs/resources.md",
   "sourceDirName": ".",
   "slug": "/resources",

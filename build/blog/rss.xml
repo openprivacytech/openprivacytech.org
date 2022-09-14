@@ -13,8 +13,9 @@
             <link>https://openprivacytech.org/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[We are working on the blog page, stay tuned for the upcoming blogs.]]></description>
-            <content:encoded><![CDATA[<p>We are working on the blog page, stay tuned for the upcoming blogs.</p><p>If you want to write a blog or contribute in our projects please contact sourav <!-- -->[at]<!-- -->openprivacytech <!-- -->[dot]<!-- --> org</p>]]></content:encoded>
+            <description><![CDATA[Blog page is currently under development, stay tuned for the upcoming blogs.]]></description>
+            <content:encoded><![CDATA[<p>Blog page is currently under development, stay tuned for the upcoming blogs.</p><p>If you want to write a blog or contribute in our projects please
+contact sourav <!-- -->[at]<!-- --> openprivacytech <!-- -->[dot]<!-- --> org</p>]]></content:encoded>
             <category>announcements</category>
             <category>federated learning</category>
             <category>differential privacy</category>

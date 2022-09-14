@@ -41,6 +41,10 @@ export default {
   "themeConfig": {
     "navbar": {
       "title": "Open Privacy Tech",
+      "logo": {
+        "alt": "My Site Logo",
+        "src": "img/logo_round.svg"
+      },
       "items": [
         {
           "type": "doc",

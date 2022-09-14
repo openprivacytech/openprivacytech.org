@@ -12,8 +12,9 @@
         <id>welcome</id>
         <link href="https://openprivacytech.org/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are working on the blog page, stay tuned for the upcoming blogs.]]></summary>
-        <content type="html"><![CDATA[<p>We are working on the blog page, stay tuned for the upcoming blogs.</p><p>If you want to write a blog or contribute in our projects please contact sourav <!-- -->[at]<!-- -->openprivacytech <!-- -->[dot]<!-- --> org</p>]]></content>
+        <summary type="html"><![CDATA[Blog page is currently under development, stay tuned for the upcoming blogs.]]></summary>
+        <content type="html"><![CDATA[<p>Blog page is currently under development, stay tuned for the upcoming blogs.</p><p>If you want to write a blog or contribute in our projects please
+contact sourav <!-- -->[at]<!-- --> openprivacytech <!-- -->[dot]<!-- --> org</p>]]></content>
         <author>
             <name>Sourav Das</name>
             <uri>https://github.com/souravcipher</uri>

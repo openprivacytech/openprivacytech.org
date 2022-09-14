@@ -98,7 +98,7 @@
     "resources": {
       "id": "resources",
       "title": "resources",
-      "description": "",
+      "description": "Differential Privacy",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

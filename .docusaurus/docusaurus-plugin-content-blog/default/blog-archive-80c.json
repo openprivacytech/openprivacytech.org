@@ -7,7 +7,7 @@
         "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blog/2021-08-26-welcome/index.md",
         "source": "@site/blog/2021-08-26-welcome/index.md",
         "title": "Welcome",
-        "description": "We are working on the blog page, stay tuned for the upcoming blogs.",
+        "description": "Blog page is currently under development, stay tuned for the upcoming blogs.",
         "date": "2021-08-26T00:00:00.000Z",
         "formattedDate": "August 26, 2021",
         "tags": [
@@ -52,7 +52,7 @@
           "permalink": "/blog/first-blog-post"
         }
       },
-      "content": "We are working on the blog page, stay tuned for the upcoming blogs.\n\nIf you want to write a blog or contribute in our projects please contact sourav [at]openprivacytech [dot] org"
+      "content": "Blog page is currently under development, stay tuned for the upcoming blogs.\n\nIf you want to write a blog or contribute in our projects please \ncontact sourav [at] openprivacytech [dot] org"
     },
     {
       "id": "first-blog-post",
