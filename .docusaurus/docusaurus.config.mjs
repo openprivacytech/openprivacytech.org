@@ -102,6 +102,10 @@ export default {
             {
               "label": "Slack",
               "href": "https://communityinviter.com/apps/openprivacytech/openprivacytech"
+            },
+            {
+              "label": "Code of Conduct",
+              "href": "/code_of_conduct"
             }
           ]
         },

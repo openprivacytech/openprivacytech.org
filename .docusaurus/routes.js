@@ -48,6 +48,11 @@ export default [
     exact: true
   },
   {
+    path: '/code_of_conduct',
+    component: ComponentCreator('/code_of_conduct', '791'),
+    exact: true
+  },
+  {
     path: '/jobs',
     component: ComponentCreator('/jobs', 'f55'),
     exact: true
