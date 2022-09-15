@@ -1,8 +1,8 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Privacy Tech",
+  "description": "",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

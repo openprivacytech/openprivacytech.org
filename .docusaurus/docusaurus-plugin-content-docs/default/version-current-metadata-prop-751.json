@@ -10,7 +10,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Privacy Tech",
         "href": "/docs/intro",
         "docId": "intro"
       }
@@ -19,8 +19,8 @@
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "Privacy Tech",
+      "description": "",
       "sidebar": "tutorialSidebar"
     }
   }
