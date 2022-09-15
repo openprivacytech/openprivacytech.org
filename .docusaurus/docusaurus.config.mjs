@@ -105,7 +105,7 @@ export default {
             },
             {
               "label": "Code of Conduct",
-              "href": "/code_of_conduct"
+              "href": "/code-of-conduct"
             }
           ]
         },
