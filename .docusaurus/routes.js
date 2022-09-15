@@ -48,6 +48,11 @@ export default [
     exact: true
   },
   {
+    path: '/jobs',
+    component: ComponentCreator('/jobs', 'f55'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '792'),
     exact: true

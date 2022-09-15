@@ -71,6 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/resources', label: 'Resources', position: 'left'},
+          {to: '/jobs', label: 'Jobs', position: 'left'},
           {
             href: "https://github.com/openprivacytech",
             position: "right",

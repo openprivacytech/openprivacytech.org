@@ -1,0 +1,7 @@
+{
+  "type": "mdx",
+  "permalink": "/jobs",
+  "source": "@site/src/pages/jobs.md",
+  "title": "Jobs",
+  "frontMatter": {}
+}
