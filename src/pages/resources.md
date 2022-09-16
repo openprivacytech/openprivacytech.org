@@ -16,6 +16,7 @@ sidebar_position: 1
 ## Differential Privacy
 
 [The Definition of Differential Privacy - Cynthia Dwork](https://youtu.be/lg-VhHlztqo)
+[A friendly, non-technical introduction to Differential Privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html)
 
 ## Homomorphic Encryption
 
