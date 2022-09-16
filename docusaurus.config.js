@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Open Privacy Tech',
-  tagline: 'Open Privacy Tech is an open community promoting and advocating Privacy Technology',
+  tagline: 'Open Privacy Tech is an open source community promoting and advocating Privacy Technology',
   url: 'https://openprivacytech.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -59,9 +59,9 @@ const config = {
       navbar: {
         title: 'Open Privacy Tech',
 //        logo: {
-//          alt: 'My Site Logo',
-//          src: 'img/logo.svg',
-//        },
+//          alt: 'Open Privacy Tech Logo',
+//          src: 'img/logo.png',
+//       },
         items: [
           {
             type: 'doc',

@@ -1,3 +1,9 @@
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 /* global __resourceQuery, __webpack_hash__ */
 /// <reference types="webpack/module" />
 import webpackHotLog from "webpack/hot/log.js";
@@ -5,7 +11,7 @@ import stripAnsi from "./utils/stripAnsi.js";
 import parseURL from "./utils/parseURL.js";
 import socket from "./socket.js";
 import { formatProblem, show, hide } from "./overlay.js";
-import { log, setLogLevel } from "./utils/log.js";
+import { log, logEnabledFeatures, setLogLevel } from "./utils/log.js";
 import sendMessage from "./utils/sendMessage.js";
 import reloadApp from "./utils/reloadApp.js";
 import createSocketURL from "./utils/createSocketURL.js";
@@ -45,15 +51,44 @@ var options = {
   overlay: false
 };
 var parsedResourceQuery = parseURL(__resourceQuery);
+var enabledFeatures = {
+  "Hot Module Replacement": false,
+  "Live Reloading": false,
+  Progress: false,
+  Overlay: false
+};
 
 if (parsedResourceQuery.hot === "true") {
   options.hot = true;
-  log.info("Hot Module Replacement enabled.");
+  enabledFeatures["Hot Module Replacement"] = true;
 }
 
 if (parsedResourceQuery["live-reload"] === "true") {
   options.liveReload = true;
-  log.info("Live Reloading enabled.");
+  enabledFeatures["Live Reloading"] = true;
+}
+
+if (parsedResourceQuery.progress === "true") {
+  options.progress = true;
+  enabledFeatures.Progress = true;
+}
+
+if (parsedResourceQuery.overlay) {
+  try {
+    options.overlay = JSON.parse(parsedResourceQuery.overlay);
+  } catch (e) {
+    log.error("Error parsing overlay options from resource query:", e);
+  } // Fill in default "true" params for partially-specified objects.
+
+
+  if (typeof options.overlay === "object") {
+    options.overlay = _objectSpread({
+      errors: true,
+      warnings: true
+    }, options.overlay);
+  }
+
+  enabledFeatures.Overlay = true;
 }
 
 if (parsedResourceQuery.logging) {
@@ -63,10 +98,11 @@ if (parsedResourceQuery.logging) {
 if (typeof parsedResourceQuery.reconnect !== "undefined") {
   options.reconnect = Number(parsedResourceQuery.reconnect);
 }
+
+logEnabledFeatures(enabledFeatures);
 /**
  * @param {string} level
  */
-
 
 function setAllLogLevel(level) {
   // This is needed because the HMR logger operate separately from dev server logger
@@ -88,7 +124,6 @@ var onSocketMessage = {
     }
 
     options.hot = true;
-    log.info("Hot Module Replacement enabled.");
   },
   liveReload: function liveReload() {
     if (parsedResourceQuery["live-reload"] === "false") {
@@ -96,7 +131,6 @@ var onSocketMessage = {
     }
 
     options.liveReload = true;
-    log.info("Live Reloading enabled.");
   },
   invalid: function invalid() {
     log.info("App updated. Recompiling..."); // Fixes #1042. overlay doesn't clear if errors are fixed but warnings remain.

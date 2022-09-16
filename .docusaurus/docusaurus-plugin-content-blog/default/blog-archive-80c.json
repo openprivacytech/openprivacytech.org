@@ -4,7 +4,7 @@
       "id": "welcome",
       "metadata": {
         "permalink": "/blog/welcome",
-        "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blog/2021-08-26-welcome/index.md",
+        "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/blog/2021-08-26-welcome/index.md",
         "source": "@site/blog/2021-08-26-welcome/index.md",
         "title": "Welcome",
         "description": "Blog page is currently under development, stay tuned for the upcoming blogs.",
@@ -58,7 +58,7 @@
       "id": "first-blog-post",
       "metadata": {
         "permalink": "/blog/first-blog-post",
-        "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blog/2019-05-28-first-blog-post.md",
+        "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/blog/2019-05-28-first-blog-post.md",
         "source": "@site/blog/2019-05-28-first-blog-post.md",
         "title": "First Blog Post",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

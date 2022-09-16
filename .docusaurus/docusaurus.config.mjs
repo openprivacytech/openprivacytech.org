@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/souravdas/Documents/GitHub/openprivacytech.org/sidebars.js",
-          "editUrl": "https://github.com/openprivacytech/openprivacytech.org"
+          "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/openprivacytech/openprivacytech.org"
+          "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main"
         },
         "theme": {
           "customCss": "/Users/souravdas/Documents/GitHub/openprivacytech.org/src/css/custom.css"
