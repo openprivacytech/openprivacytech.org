@@ -31,7 +31,8 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Open Privacy Tech is an open community promoting and advocating 
+      Privacy Technology <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

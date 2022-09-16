@@ -5,6 +5,7 @@
  */
 export default {
   "title": "Open Privacy Tech",
+  "tagline": "Open Privacy Tech is an open community promoting and advocating Privacy Technology",
   "url": "https://openprivacytech.org",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -362,7 +363,6 @@ export default {
   "scripts": [],
   "stylesheets": [],
   "clientModules": [],
-  "tagline": "",
   "titleDelimiter": "|",
   "noIndex": false
 };
