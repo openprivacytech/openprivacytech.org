@@ -32,7 +32,7 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Open Privacy Tech is an open community promoting and advocating 
-      Privacy Technology <head />">
+      Privacy Tech <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
