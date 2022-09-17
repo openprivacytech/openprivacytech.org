@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Open Privacy Tech ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Open Privacy Tech is an open community promoting and advocating 
       Privacy Tech <head />">
       <HomepageHeader />
