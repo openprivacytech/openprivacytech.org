@@ -5,7 +5,7 @@
  */
 export default {
   "title": "Open Privacy Tech",
-  "tagline": "Open Privacy Tech is an open source community promoting and advocating Privacy Technology",
+  "tagline": "Open Privacy Tech is an open source community promoting and advocating Privacy Tech",
   "url": "https://openprivacytech.org",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
