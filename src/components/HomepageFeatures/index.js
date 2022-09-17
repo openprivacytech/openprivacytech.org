@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Join a Working Group',
+    title: 'Working Group',
     Svg: require('@site/static/img/working_group.svg').default,
     description: (
       <>
