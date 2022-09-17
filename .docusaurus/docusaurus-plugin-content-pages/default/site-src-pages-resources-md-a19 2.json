@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/resources",
+  "source": "@site/src/pages/resources.md",
+  "title": "Resources",
+  "description": "Federated Learning",
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}
