@@ -1,0 +1,324 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/docs",
+          "editUrlLocalized": "https://github.com/openprivacytech/openprivacytech.org/blob/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/souravdas/Documents/GitHub/openprivacytech.org/sidebars.js",
+          "contentPath": "/Users/souravdas/Documents/GitHub/openprivacytech.org/docs",
+          "contentPathLocalized": "/Users/souravdas/Documents/GitHub/openprivacytech.org/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Privacy Tech",
+              "description": "",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/blog/2021-08-26-welcome/index.md",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Blog page is currently under development, stay tuned for the upcoming blogs.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "announcements",
+                "permalink": "/blog/tags/announcements"
+              },
+              {
+                "label": "federated learning",
+                "permalink": "/blog/tags/federated-learning"
+              },
+              {
+                "label": "differential privacy",
+                "permalink": "/blog/tags/differential-privacy"
+              }
+            ],
+            "readingTime": 0.155,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sourav Das",
+                "title": "Core Team",
+                "url": "https://github.com/souravcipher",
+                "imageURL": "https://github.com/souravcipher.png",
+                "key": "sourav"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "sourav"
+              ],
+              "tags": [
+                "announcements",
+                "federated learning",
+                "differential privacy"
+              ]
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "Blog page is currently under development, stay tuned for the upcoming blogs.\n\nIf you want to write a blog or contribute in our projects please \ncontact sourav [at] openprivacytech [dot] org"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/blog/2019-05-28-first-blog-post.md",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "announcement",
+                "permalink": "/blog/tags/announcement"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sourav Das",
+                "title": "Core Team",
+                "url": "https://github.com/souravcipher",
+                "image_url": "https://github.com/souravcipher.png",
+                "imageURL": "https://github.com/souravcipher.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Sourav Das",
+                "title": "Core Team",
+                "url": "https://github.com/souravcipher",
+                "image_url": "https://github.com/souravcipher.png",
+                "imageURL": "https://github.com/souravcipher.png"
+              },
+              "tags": [
+                "announcement"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 2,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/announcements": {
+          "label": "announcements",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/announcements",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/announcements",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/federated-learning": {
+          "label": "federated learning",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/federated-learning",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/federated-learning",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/differential-privacy": {
+          "label": "differential privacy",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/differential-privacy",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/differential-privacy",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/announcement": {
+          "label": "announcement",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/announcement",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/announcement",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/code-of-conduct",
+        "source": "@site/src/pages/code-of-conduct.md",
+        "title": "Contributor Covenant Code of Conduct",
+        "description": "Our Pledge",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/jobs",
+        "source": "@site/src/pages/jobs.md",
+        "title": "Jobs",
+        "frontMatter": {}
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/resources",
+        "source": "@site/src/pages/resources.md",
+        "title": "Resources",
+        "description": "Federated Learning",
+        "frontMatter": {
+          "sidebar_position": 1
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

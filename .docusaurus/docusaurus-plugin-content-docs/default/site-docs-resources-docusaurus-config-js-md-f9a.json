@@ -1,0 +1,29 @@
+{
+  "unversionedId": "resources/docusaurus.config.js",
+  "id": "resources/docusaurus.config.js",
+  "title": "docusaurus.config.js",
+  "description": "Resources reference for Docusaurus configuration file.",
+  "source": "@site/docs/resources/docusaurus.config.js.md",
+  "sourceDirName": "resources",
+  "slug": "/resources/federated-learing",
+  "permalink": "/docs/resources/federated-learing",
+  "draft": false,
+  "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/docs/resources/docusaurus.config.js.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "description": "Resources reference for Docusaurus configuration file.",
+    "slug": "/resources/federated-learing"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Privacy Tech",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "federated-learning overview",
+    "permalink": "/docs/resources/federated-learning"
+  }
+}

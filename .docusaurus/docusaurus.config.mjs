@@ -46,23 +46,23 @@ export default {
         {
           "type": "doc",
           "docId": "intro",
-          "position": "left",
-          "label": "Tutorial"
+          "position": "right",
+          "label": "Docs"
         },
         {
           "to": "/blog",
           "label": "Blog",
-          "position": "left"
+          "position": "right"
         },
         {
           "to": "/resources",
           "label": "Resources",
-          "position": "left"
+          "position": "right"
         },
         {
           "to": "/jobs",
           "label": "Jobs",
-          "position": "left"
+          "position": "right"
         },
         {
           "href": "https://github.com/openprivacytech",

@@ -3,7 +3,7 @@ slug: first-blog-post
 title: First Blog Post
 authors:
   name: Sourav Das
-  title: Founder, Open Privacy Tech.
+  title: Core Team
   url: https://github.com/souravcipher
   image_url: https://github.com/souravcipher.png
 tags: [announcement]

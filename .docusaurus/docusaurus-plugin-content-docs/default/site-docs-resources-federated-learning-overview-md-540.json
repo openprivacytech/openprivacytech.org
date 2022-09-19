@@ -1,0 +1,26 @@
+{
+  "unversionedId": "resources/federated-learning/federated-learning",
+  "id": "resources/federated-learning/federated-learning",
+  "title": "Federated Learning",
+  "description": "",
+  "source": "@site/docs/resources/federated-learning/overview.md",
+  "sourceDirName": "resources/federated-learning",
+  "slug": "/resources/federated-learning",
+  "permalink": "/docs/resources/federated-learning",
+  "draft": false,
+  "editUrl": "https://github.com/openprivacytech/openprivacytech.org/blob/main/docs/resources/federated-learning/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0,
+    "id": "federated-learning",
+    "sidebar_label": "federated-learning overview",
+    "slug": "/resources/federated-learning"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docusaurus.config.js",
+    "permalink": "/docs/resources/federated-learing"
+  }
+}

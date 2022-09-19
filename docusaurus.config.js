@@ -66,12 +66,12 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'right',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/resources', label: 'Resources', position: 'left'},
-          {to: '/jobs', label: 'Jobs', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/resources', label: 'Resources', position: 'right'},
+          {to: '/jobs', label: 'Jobs', position: 'right'},
           {
             href: "https://github.com/openprivacytech",
             position: "right",
