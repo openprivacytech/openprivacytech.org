@@ -20,10 +20,15 @@ sidebar_position: 1
 
 ## Books
 
-- [The Algorithmic Foundations of Differential Privacy](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf) 
-- [Cynthia Dwork](https://www.microsoft.com/en-us/research/people/dwork/) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/)
+- [The Algorithmic Foundations of Differential Privacy](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf) - [Cynthia Dwork](https://www.microsoft.com/en-us/research/people/dwork/) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/)
+- [The Complexity of Differential Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1.pdf) - [Salil Vadhan](https://salil.seas.harvard.edu/)
 
 ## Homomorphic Encryption
+
+- [What is Homomorphic Encryption? - OpenMined
+](https://youtu.be/2TVqFGu1vhw)
+
+
 
 ## SECURE MULTI-PARTY COMPUTATION
 
