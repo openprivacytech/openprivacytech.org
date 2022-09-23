@@ -93,6 +93,10 @@ export default {
           "title": "Community",
           "items": [
             {
+              "label": "Code of Conduct",
+              "href": "/code-of-conduct"
+            },
+            {
               "label": "Twitter",
               "href": "https://twitter.com/openprivacytech"
             },
@@ -103,10 +107,6 @@ export default {
             {
               "label": "Slack",
               "href": "https://communityinviter.com/apps/openprivacytech/openprivacytech"
-            },
-            {
-              "label": "Code of Conduct",
-              "href": "/code-of-conduct"
             }
           ]
         },
