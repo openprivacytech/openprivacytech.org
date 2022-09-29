@@ -1,0 +1,5 @@
+.DS_Stor
+package-lock.json
+node_modules
+.cache
+.docusaurus
