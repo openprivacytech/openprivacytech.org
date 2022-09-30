@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #424751;
   --ifm-color-primary-lightest: #4a515b;
   --ifm-color-primary-white: #ffffff;
+  --ifm-color-primary-link: #0000ca;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -25,6 +26,7 @@
   --ifm-color-primary-light: #ffffff;
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary-link: #87afcf;
 }
 
 .header-github-link:hover {
@@ -46,4 +48,8 @@
 }
 .footer__link-item {
   --ifm-footer-link-hover-color:var(--ifm-color-primary-white);
+}
+
+article a {
+  color: var(--ifm-color-primary-link);
 }
