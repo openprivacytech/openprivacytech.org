@@ -4,6 +4,14 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## Table of Contents
+- [Installation](#installation)
+- [Local Development](#local-development)
+- [Build](#build)
+- [Deployment](#deployment)
+- [How to Contribute](#how-to-contribute)
+
+
 ### Installation
 
 Using Yarn:
@@ -65,7 +73,7 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-<h3> How to Contribute </h3>
+### How to Contribute
 <p>
  Step 1: Fork this repository. <br>
  Step 2: Go to your GitHub profile and you will find a repository with the same name as the project. Clone this repository either using the "Download zip" button under the code section or using git commands,
