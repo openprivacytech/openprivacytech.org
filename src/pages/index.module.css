@@ -28,3 +28,14 @@
   justify-content: center;
   flex-direction: row-reverse;
 }
+
+/* responsiveness for devices less than 430px */
+@media screen and (max-width: 430px) {
+  .align {
+    flex-direction: column;
+  }
+
+  .buttons {
+    margin-top: 1rem;
+  }
+}
