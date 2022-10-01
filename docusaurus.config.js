@@ -1,53 +1,54 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Open Privacy Tech',
-  tagline: 'Open Privacy Tech is an open source community promoting and advocating Privacy Tech',
-  url: 'https://openprivacytech.org',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Open Privacy Tech",
+  tagline:
+    "Open Privacy Tech is an open source community promoting and advocating Privacy Tech",
+  url: "https://openprivacytech.org",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Open Privacy Tech', // Usually your GitHub org/user name.
-  projectName: 'openprivacytech', // Usually your repo name.
+  organizationName: "Open Privacy Tech", // Usually your GitHub org/user name.
+  projectName: "openprivacytech", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/openprivacytech/openprivacytech.org/blob/main',
+            "https://github.com/openprivacytech/openprivacytech.org/blob/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/openprivacytech/openprivacytech.org/blob/main',
+            "https://github.com/openprivacytech/openprivacytech.org/blob/main",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -57,21 +58,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Open Privacy Tech',
-//        logo: {
-//          alt: 'Open Privacy Tech Logo',
-//          src: 'img/logo.png',
-//       },
+        title: "Open Privacy Tech",
+        //        logo: {
+        //          alt: 'Open Privacy Tech Logo',
+        //          src: 'img/logo.png',
+        //       },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Docs',
+            type: "doc",
+            docId: "intro",
+            position: "right",
+            label: "Docs",
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
-          {to: '/resources', label: 'Resources', position: 'right'},
-          {to: '/jobs', label: 'Jobs', position: 'right'},
+          { to: "/blog", label: "Blog", position: "right" },
+          { to: "/resources", label: "Resources", position: "right" },
+          { to: "/jobs", label: "Jobs", position: "right" },
           {
             href: "https://github.com/openprivacytech",
             position: "right",
@@ -81,56 +82,56 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Docs',
-                to: '/docs/intro',
+                label: "Docs",
+                to: "/docs/intro",
               },
               {
-                label: 'Resources',
-                to: 'resources',
+                label: "Resources",
+                to: "resources",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Code of Conduct',
-                href: '/code-of-conduct',
+                label: "Code of Conduct",
+                href: "/code-of-conduct",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/openprivacytech',
+                label: "Twitter",
+                href: "https://twitter.com/openprivacytech",
               },
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/openprivacytech',
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/openprivacytech",
               },
               {
-                label: 'Slack',
-                href: 'https://communityinviter.com/apps/openprivacytech/openprivacytech',
+                label: "Slack",
+                href: "https://communityinviter.com/apps/openprivacytech/openprivacytech",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/openprivacytech',
+                label: "GitHub",
+                href: "https://github.com/openprivacytech",
               },
               {
-                label: 'Donate',
-                href: 'https://opencollective.com/openprivacytech',
+                label: "Donate",
+                href: "https://opencollective.com/openprivacytech",
               },
             ],
           },
