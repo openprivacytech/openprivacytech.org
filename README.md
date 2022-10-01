@@ -40,13 +40,6 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-<h1>Instructions to Contribute</h1>
-The Open source Community is awesome, to be a part of it you can start contributing and help people with their projects, here's a guide to do exactly that!
-before you start here is something you should know:
-<br>
-1. <a href = "https://hacktoberfest.com/participation/">Hacktoberfest guide</a> <br>
-2. <a href = "https://opensource.guide/code-of-conduct/">Code of Conduct</a>
-
 <h3> How to Contribute </h3>
 <p>
  Step 1: Fork this repository. <br>
