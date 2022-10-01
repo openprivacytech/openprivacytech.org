@@ -48,5 +48,14 @@
 }
 
 .footer__link-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   --ifm-footer-link-hover-color: var(--ifm-color-primary-white);
+}
+
+.footer__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
