@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d524e0a3-1cc6-49b4-b692-322dc4f833f3/deploy-status)](https://app.netlify.com/sites/quiet-mermaid-0c777f/deploys)
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
