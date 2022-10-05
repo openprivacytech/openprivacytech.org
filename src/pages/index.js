@@ -18,7 +18,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="https://communityinviter.com/apps/openprivacytech/openprivacytech"
+              to="https://slack.openprivacytech.org"
             >
               JOIN THE COMMUNITY
             </Link>
