@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/advocate.svg').default,
     description: (
       <>
-        We are on a mission to make the world a better and safer place for humanity, we beleive that by doing Research, Development and Adovocacy in Privacy Tech we can
+        We are on a mission to make the world a better and safer place for humanity, we believe that by doing Research, Development and Adovocacy in Privacy Tech we can
         solve the larger Data Privacy problems in the world to make the world more privacy-preserving.
       </>
     ),
