@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d524e0a3-1cc6-49b4-b692-322dc4f833f3/deploy-status)](https://app.netlify.com/sites/quiet-mermaid-0c777f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d524e0a3-1cc6-49b4-b692-322dc4f833f3/deploy-status)](https://app.netlify.com/sites/openprivacytech/deploys)
 
 # Website
 
