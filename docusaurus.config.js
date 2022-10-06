@@ -114,7 +114,7 @@ const config = {
               },
               {
                 label: "Slack",
-                href: "https://communityinviter.com/apps/openprivacytech/openprivacytech",
+                href: "https://slack.openprivacytech.org",
               },
             ],
           },
