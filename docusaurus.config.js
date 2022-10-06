@@ -34,7 +34,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          path: "contents/docs",
+          sidebarPath: require.resolve("./sidebars/docs.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -51,6 +52,23 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "resources",
+        path: "contents/resources",
+        routeBasePath: "resources",
+        sidebarPath: require.resolve("./sidebars/resources.js"),
+        editUrl:
+          "https://github.com/openprivacytech/openprivacytech.org/blob/main",
+        editLocalizedFiles: true,
+        showLastUpdateTime: true,
+        showLastUpdateAuthor: true,
+      },
     ],
   ],
 
@@ -89,11 +107,11 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs/intro",
+                to: "/docs",
               },
               {
                 label: "Resources",
-                to: "resources",
+                to: "/resources",
               },
             ],
           },
