@@ -10,7 +10,7 @@ slug: /
 
 [TensorFlow Federated: Machine Learning on Decentralized Data](https://www.tensorflow.org/federated)
 
-## Federated Learning Frameworks
+### Federated Learning Frameworks
 
 - [TensorFlow Federated (TFF)](https://github.com/tensorflow/federated)
 
@@ -26,13 +26,17 @@ slug: /
 
 - [A friendly, non-technical introduction to Differential Privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html)
 
-## Books
+### Books
 
 - [The Algorithmic Foundations of Differential Privacy](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf) - [Cynthia Dwork](https://www.microsoft.com/en-us/research/people/dwork/) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/)
 
 - [The Complexity of Differential Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1.pdf) - [Salil Vadhan](https://salil.seas.harvard.edu/)
 
-## Homomorphic Encryption (HE) and Fully Homomorphic Encryption (FHE)
+## Homomorphic Encryption (HE)
+
+- [Introduction to Homomorphic Encryption](https://www.ayoub-benaissa.com/blog/introduction-to-homomorphic-encryption/)
+
+### Fully Homomorphic Encryption (FHE)
 
 - [Technical Perspective: A First Glimpse of Cryptography's Holy Grail](https://cacm.acm.org/magazines/2010/3/76275-technical-perspective-a-first-glimpse-of-cryptographys-holy-grail/fulltext)
 
@@ -57,3 +61,6 @@ slug: /
 - [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4032740/)
 
 - [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I)
+
+# Synthetic Data 
+# Secure Enclaves
