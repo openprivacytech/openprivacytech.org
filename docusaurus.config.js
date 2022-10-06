@@ -57,18 +57,19 @@ const config = {
 
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      "@docusaurus/plugin-content-docs",
       {
-        id: 'resources',
-        path: 'contents/resources',
-        routeBasePath: 'resources',
-        sidebarPath: require.resolve('./sidebars/resources.js'),
-        editUrl: "https://github.com/openprivacytech/openprivacytech.org/blob/main",
+        id: "resources",
+        path: "contents/resources",
+        routeBasePath: "resources",
+        sidebarPath: require.resolve("./sidebars/resources.js"),
+        editUrl:
+          "https://github.com/openprivacytech/openprivacytech.org/blob/main",
         editLocalizedFiles: true,
         showLastUpdateTime: true,
         showLastUpdateAuthor: true,
       },
-    ]
+    ],
   ],
 
   themeConfig:
@@ -106,11 +107,11 @@ const config = {
             items: [
               {
                 label: "Docs",
-                to: "/docs/intro",
+                to: "/docs",
               },
               {
                 label: "Resources",
-                to: "resources",
+                to: "/resources",
               },
             ],
           },
