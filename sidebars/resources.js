@@ -5,5 +5,6 @@ module.exports = {
     "differential-privacy",
     "homomorphic-encryption",
     "secure-multi-party-computation",
+    "zero-knowledge-proof",
   ],
 };
