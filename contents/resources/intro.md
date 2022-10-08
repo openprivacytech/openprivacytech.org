@@ -62,5 +62,3 @@ slug: /
 
 - [Zero Knowledge Proofs - Computerphile](https://www.youtube.com/watch?v=HUs1bH85X9I)
 
-# Synthetic Data 
-# Secure Enclaves
