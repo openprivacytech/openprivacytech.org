@@ -6,7 +6,7 @@ sidebar_label: Federated Learning
 
 [TensorFlow Federated: Machine Learning on Decentralized Data](https://www.tensorflow.org/federated)
 
-# Federated Learning Frameworks
+### Federated Learning Frameworks
 
 - [TensorFlow Federated (TFF)](https://github.com/tensorflow/federated)
 
