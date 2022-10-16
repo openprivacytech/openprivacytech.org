@@ -11,7 +11,7 @@ sidebar_label: Differential Privacy
 ## Courses
 
 - [Privacy in Statistics and Machine Learning](https://dpcourse.github.io/)
-
+- [Privacy Preserving Machine Learning](http://researchers.lille.inria.fr/abellet/teaching/private_machine_learning_course.html)
 
 ## Books
 
