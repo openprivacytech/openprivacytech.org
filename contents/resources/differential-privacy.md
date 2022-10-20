@@ -18,3 +18,5 @@ sidebar_label: Differential Privacy
 - [The Algorithmic Foundations of Differential Privacy](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf) - [Cynthia Dwork](https://www.microsoft.com/en-us/research/people/dwork/) and [Aaron Roth](https://www.cis.upenn.edu/~aaroth/)
 
 - [The Complexity of Differential Privacy](https://privacytools.seas.harvard.edu/files/privacytools/files/complexityprivacy_1.pdf) - [Salil Vadhan](https://salil.seas.harvard.edu/)
+
+- [Programming Differential Privacy](https://programming-dp.com/index.html) - Joseph P. Near and Chiké Abuah
