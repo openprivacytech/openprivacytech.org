@@ -76,9 +76,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Open Privacy Tech",
+        title: "OpenPrivacyTech",
         //        logo: {
-        //          alt: 'Open Privacy Tech Logo',
+        //          alt: 'OpenPrivacyTech Logo',
         //          src: 'img/logo.png',
         //       },
         items: [
@@ -154,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Open Privacy Tech.`,
+        copyright: `Copyright © ${new Date().getFullYear()} OpenPrivacyTech.`,
       },
       prism: {
         theme: lightCodeTheme,
