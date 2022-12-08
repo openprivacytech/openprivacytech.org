@@ -160,6 +160,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      announcementBar: {
+        content:
+          'This site is under construction, don\'t forget to star the repo on <a target="_blank" rel="noopener noreferrer" href="https://github.com/openprivacytech/openprivacytech.org">GitHub</a>',
+        backgroundColor: "rgba(241, 81, 81, 0.89)",
+        textColor: "#FFFFFF",
+        isCloseable: false,
+      },
     }),
 };
 
