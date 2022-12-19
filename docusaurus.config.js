@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "OpenPrivacyTech",
   tagline:
-    "OpenPrivacyTech is a non-profit and open source initiative working on democratizing privacy technology.",
+    "OpenPrivacyTech is a nonprofit and open source initiative working on democratizing privacy technology.",
   url: "https://openprivacytech.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -77,10 +77,10 @@ const config = {
     ({
       navbar: {
         title: "OpenPrivacyTech",
-        //        logo: {
-        //          alt: 'OpenPrivacyTech Logo',
-        //          src: 'img/logo.png',
-        //       },
+                logo: {
+                  alt: 'OpenPrivacyTech Logo',
+                  src: 'img/logo.png',
+               },
         items: [
           {
             type: "doc",
