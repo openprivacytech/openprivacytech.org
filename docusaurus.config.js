@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "OpenPrivacyTech",
+  title: "We are democratizing Privacy Technology",
   tagline:
-    "OpenPrivacyTech is a nonprofit and open source initiative working on democratizing privacy technology.",
+    "Join the movement towards making privacy technology accessible to everyone",
   url: "https://openprivacytech.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -162,7 +162,7 @@ const config = {
       },
       announcementBar: {
         content:
-          'This site is under construction, don\'t forget to star the repo on <a target="_blank" rel="noopener noreferrer" href="https://github.com/openprivacytech/openprivacytech.org">GitHub</a>',
+          'We are updating the website, please open an issue if you want to contribute and don\'t forget to star the repo on <a target="_blank" rel="noopener noreferrer" href="https://github.com/openprivacytech/openprivacytech.org">GitHub</a>',
         backgroundColor: "rgba(241, 81, 81, 0.89)",
         textColor: "#FFFFFF",
         isCloseable: false,

@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Open Privacy Tech is a growing community of Privacy Reseachers, Developers, Engineers, Data Scientists and Evangelists, 
-        Join the thriving community to get invlove in our larger Privacy Tech mission.
+        OpenPrivacyTech is a growing community of Privacy Researchers, Developers, Engineers, Data Scientists and Evangelists, 
+        Join the thriving community to get involve in our larger Privacy Tech mission.
       </>
     ),
   },
@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/working_group.svg').default,
     description: (
       <>
-        As a member of a working group you will get the access to work with Privacy Engineers, Reseachers, Developers and Industry Leaders.
+        As a member of a working group you will get the access to work with Privacy Engineers, Researchers, Developers and Industry Leaders.
         Joining a working group will give you the opportunity to collaborate and working directly on Open Privacy Tech projects.
       </>
     ),
@@ -28,8 +28,8 @@ const FeatureList = [
     Svg: require('@site/static/img/advocate.svg').default,
     description: (
       <>
-        We are on a mission to make the world a better and safer place for humanity, we believe that by doing Research, Development and Adovocacy in Privacy Tech we can
-        solve the larger Data Privacy problems in the world to make the world more privacy-preserving.
+        We are on a mission to make the world a better and safer place for humanity, we believe that by doing Research, Development and Advocacy in Privacy Tech we can
+        solve the larger Data Privacy problems, and make the world more privacy-preserving.
       </>
     ),
   },
