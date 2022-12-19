@@ -19,7 +19,7 @@ const FeatureList = [
     description: (
       <>
         As a member of a working group you will get the access to work with Privacy Engineers, Researchers, Developers and Industry Leaders.
-        Joining a working group will give you the opportunity to collaborate and working directly on Open Privacy Tech projects.
+        Joining a working group will give you the opportunity to collaborate and working directly on OpenPrivacyTech projects.
       </>
     ),
   },
