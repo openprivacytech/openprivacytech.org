@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Privacy Tech
+title: Documentation
 slug: /
 ---
 
-# Privacy Tech
+# Documentation
 
-`This page is under construction!`
+`We are updating the Documentation!`
