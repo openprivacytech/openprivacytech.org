@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "We are Democratizing Privacy Technology",
+  title: "We are Democratizing Privacy Tech",
   tagline:
     "Join the movement towards making privacy technology accessible to everyone",
   url: "https://openprivacytech.org",
