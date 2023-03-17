@@ -162,7 +162,8 @@ const config = {
       },
       announcementBar: {
         content:
-          'We are updating the website, please open an issue if you want to contribute and don\'t forget to star the repo on <a target="_blank" rel="noopener noreferrer" href="https://github.com/openprivacytech/openprivacytech.org">GitHub</a>',
+          'To contribute to our website, please open an issue and don\'t forget to star the repo on <a target="_blank" rel="noopener noreferrer" href="https://github.com/openprivacytech/openprivacytech.org">GitHub</a>',
+
         backgroundColor: "rgba(241, 81, 81, 0.89)",
         textColor: "#FFFFFF",
         isCloseable: false,
@@ -171,3 +172,8 @@ const config = {
 };
 
 module.exports = config;
+
+
+
+
+
