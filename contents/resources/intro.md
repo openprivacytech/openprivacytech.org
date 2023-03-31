@@ -4,6 +4,8 @@ title: Resources
 slug: /
 ---
 
+A curated list of resources by OpenPrivacyTech Community.
+
 # Resources
 
 
