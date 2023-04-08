@@ -6,6 +6,4 @@ slug: /
 
 # Documentation
 
-We have applied to Google Season of Docs 2023
-
-To read more about the project idea, visit [OpenPrivacyTech GSoD 2023 Project Idea](https://github.com/openprivacytech/community/tree/main/mentorship/gsod/2023#readme)
+We are not participating in Season of Docs 2023, please reach out if you wanna volunteer, see you in GSoD 2024
