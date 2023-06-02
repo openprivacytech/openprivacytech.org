@@ -42,8 +42,8 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Open Privacy Tech is an open community promoting and advocating 
-      Privacy Tech <head />"
+      description="OpenPrivacyTech is an open community promoting and advocating 
+    privacy tech and privacy-enhancing technologies."
     >
       <HomepageHeader />
       <main>
