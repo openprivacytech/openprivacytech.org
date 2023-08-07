@@ -5,3 +5,4 @@ node_modules
 .docusaurus
 build
 yarn.lock
+.idea/workspace.xml
